@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio_3D/static/css/main.2e650662.chunk.css",
+    "main.css": "/portfolio_3D/static/css/main.98d815e4.chunk.css",
     "main.js": "/portfolio_3D/static/js/main.1ac1d653.chunk.js",
     "main.js.map": "/portfolio_3D/static/js/main.1ac1d653.chunk.js.map",
     "runtime-main.js": "/portfolio_3D/static/js/runtime-main.eaca281c.js",
@@ -60,7 +60,7 @@
     "static/js/28.4f1271a6.chunk.js": "/portfolio_3D/static/js/28.4f1271a6.chunk.js",
     "static/js/28.4f1271a6.chunk.js.map": "/portfolio_3D/static/js/28.4f1271a6.chunk.js.map",
     "index.html": "/portfolio_3D/index.html",
-    "static/css/main.2e650662.chunk.css.map": "/portfolio_3D/static/css/main.2e650662.chunk.css.map",
+    "static/css/main.98d815e4.chunk.css.map": "/portfolio_3D/static/css/main.98d815e4.chunk.css.map",
     "static/js/2.62b6b01a.chunk.js.LICENSE.txt": "/portfolio_3D/static/js/2.62b6b01a.chunk.js.LICENSE.txt",
     "static/media/HTML5-logo.33745ead.png": "/portfolio_3D/static/media/HTML5-logo.33745ead.png",
     "static/media/axios-logo.bd6acdab.svg": "/portfolio_3D/static/media/axios-logo.bd6acdab.svg",
@@ -109,7 +109,7 @@
   "entrypoints": [
     "static/js/runtime-main.eaca281c.js",
     "static/js/2.62b6b01a.chunk.js",
-    "static/css/main.2e650662.chunk.css",
+    "static/css/main.98d815e4.chunk.css",
     "static/js/main.1ac1d653.chunk.js"
   ]
 }
