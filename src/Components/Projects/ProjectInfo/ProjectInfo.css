@@ -1,0 +1,86 @@
+.ProjectCard {
+    position: relative;
+    width: 100%;
+    z-Index: 2;
+    background-color: rgba(255, 220, 154);
+ 
+    padding: 20px 0 20px 0;
+    border-bottom: solid black 3px;
+    transition: top 250ms ease-in-out;
+    overflow: hidden;
+}
+
+.ProjectCard h3 {
+    color: #A8E7E9;
+    -webkit-text-stroke: 1px rgba(121, 116, 116, 0.767);
+    font-size: 1.5rem;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.ProjectCard button {
+    margin-bottom: 20px;
+    border: none;
+    background-color: #FF4E50;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+}
+
+.ProjectCard button:hover {
+    background-color: #ce3f41;
+}
+
+.techList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.techList p {
+    margin: 5px;
+    padding: 5px;
+    border: solid black 1px;
+    background-color: rgba(255, 220, 154);
+}
+
+@media screen and (min-width: 480px) {
+    .ProjectCard button {
+        position: absolute;
+        right: 20px;
+    }
+
+    .ProjectCard {
+        position: absolute;
+        width: 56%;
+        z-Index: 2;
+        background-color: rgba(255, 220, 154, 0.76);
+        padding: 20px;
+        border-bottom-left-radius: 10px;
+        border-top-left-radius: 10px;
+        border-top: solid black 3px;
+        border-bottom: solid black 3px;
+        border-left: solid black 3px;
+        transition: right 250ms ease-in-out;
+        right: 0;
+        transform: translateY(-90vh);
+        max-height: 80vh;
+        overflow: auto;
+        scrollbar-width: thin;
+        scrollbar-color  : #FF4E50 grey;
+    }
+
+    .ProjectCard::-webkit-scrollbar {
+        width: 7px; 
+        margin: 3px;
+     }
+  
+    .ProjectCard::-webkit-scrollbar-track {
+      background-color: black;
+    }
+  
+    ::-webkit-scrollbar-thumb {
+      background: #FF4E50;
+      border-radius: 25px;
+    }
+  }

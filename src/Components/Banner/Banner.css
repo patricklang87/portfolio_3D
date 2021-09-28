@@ -1,0 +1,26 @@
+.Banner {
+    display: flex;
+    align-items: center;
+    height: 600px;
+    background-color: #1f1f1f;
+    box-shadow: 0 10px 10px  darkgrey; 
+}
+
+.Title {
+    width: 100%;
+    position: absolute;
+    z-Index: 1;
+
+    text-align: center;
+}
+
+.Title h1 {
+
+}
+
+.Banner canvas {
+    width: viewport-length;
+    height: 100%;
+    position: relative;
+}
+
