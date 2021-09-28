@@ -1,0 +1,2 @@
+(this["webpackJsonpportfolio-3d"]=this["webpackJsonpportfolio-3d"]||[]).push([[26],{72:function(t,o,p){"use strict";p.r(o),o.default=p.p+"static/media/nbc_2.1633f137.jpg"}}]);
+//# sourceMappingURL=26.bcccf3c9.chunk.js.map

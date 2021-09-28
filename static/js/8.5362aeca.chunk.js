@@ -1,0 +1,2 @@
+(this["webpackJsonpportfolio-3d"]=this["webpackJsonpportfolio-3d"]||[]).push([[8],{61:function(t,o,i){"use strict";i.r(o),o.default=i.p+"static/media/lt_login.f86a13da.JPG"}}]);
+//# sourceMappingURL=8.5362aeca.chunk.js.map

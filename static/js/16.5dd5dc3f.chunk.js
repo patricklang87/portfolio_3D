@@ -1,0 +1,2 @@
+(this["webpackJsonpportfolio-3d"]=this["webpackJsonpportfolio-3d"]||[]).push([[16],{69:function(t,s,c){"use strict";c.r(s),s.default=c.p+"static/media/mj_startscreen.c9cc83d2.JPG"}}]);
+//# sourceMappingURL=16.5dd5dc3f.chunk.js.map

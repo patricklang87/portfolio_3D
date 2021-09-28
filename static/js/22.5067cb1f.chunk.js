@@ -1,0 +1,2 @@
+(this["webpackJsonpportfolio-3d"]=this["webpackJsonpportfolio-3d"]||[]).push([[22],{79:function(t,o,i){"use strict";i.r(o),o.default=i.p+"static/media/ttt_gameplay_mobile.b16cf631.JPG"}}]);
+//# sourceMappingURL=22.5067cb1f.chunk.js.map

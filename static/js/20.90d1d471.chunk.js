@@ -1,0 +1,2 @@
+(this["webpackJsonpportfolio-3d"]=this["webpackJsonpportfolio-3d"]||[]).push([[20],{77:function(t,i,o){"use strict";o.r(i),i.default=o.p+"static/media/ttt_awaiting.e6ec89fc.JPG"}}]);
+//# sourceMappingURL=20.90d1d471.chunk.js.map

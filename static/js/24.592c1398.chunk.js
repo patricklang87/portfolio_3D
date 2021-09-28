@@ -1,0 +1,2 @@
+(this["webpackJsonpportfolio-3d"]=this["webpackJsonpportfolio-3d"]||[]).push([[24],{81:function(t,o,s){"use strict";s.r(o),o.default=s.p+"static/media/ttt_startscreen_mobile.cd099ae2.JPG"}}]);
+//# sourceMappingURL=24.592c1398.chunk.js.map
