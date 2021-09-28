@@ -7,13 +7,11 @@ export default function Screenshots({screenshotList}) {
     const [currentImg, setCurrentImg] = useState(null);
 
     useEffect(() => {
-        console.log(screenshotList[imgIndex]);
         let fetchImage = async (imgTitle) => {
             const image = await import(`../../../assets/screenshots/${imgTitle}`);
             return image;
         }
         fetchImage(screenshotList[imgIndex]).then((res) => {
-            console.log(res);
             setCurrentImg(res.default);
         })
     }, [imgIndex, screenshotList]);

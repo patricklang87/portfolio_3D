@@ -34,7 +34,7 @@ export const projects = [
             modelPath: flags,
             code_url: 'https://github.com/patricklang87/flagflashcards',
             deployment_url: 'https://patricklang87.github.io/flagflashcards/#/',
-            description: 'A frontend webapp designed to help the user learn the flags of the countries of the world. Written to practice React-Redux.',
+            description: 'A frontend webapp designed to help the user learn the flags of the countries of the world. Written to practice React-Redux. Please note: Recent issues with the restcountries API have been hampering this project\'s rendering.',
             technologies: ['JavaScript', 'HTML5', 'CSS3', 'React', 'Redux', 'React-Router', 'Axios', 'Node.js', 'NPM'],
             screenshots: ['lyf_home.JPG', 'lyf_flashcards.JPG', 'lyf_quiz.JPG', 'lyf_quiz_results.JPG'],
             scale: 1.5

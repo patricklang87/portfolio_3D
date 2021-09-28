@@ -1,4 +1,4 @@
-
+// deployed using https://www.freecodecamp.org/news/deploy-a-react-app-to-github-pages/
 import React, {Suspense} from 'react';
 import './App.css';
 import { Canvas } from '@react-three/fiber';
