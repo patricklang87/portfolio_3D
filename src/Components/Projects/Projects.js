@@ -43,9 +43,6 @@ export default function Projects() {
 
     return (
         <div dpr={[1, 2]} className="Projects" id="projects">
-            <div id='projectsTitle'>
-                <h2>My Projects</h2>
-            </div>
             
             <Canvas 
                 shadowMap
@@ -60,7 +57,7 @@ export default function Projects() {
                 <Suspense fallback={<LoadingModel />}>
                     {projectCarousel}
                 </Suspense>
-                <fog attach="fog" args={["#FF4E50", 40, 100]} />
+                <fog attach="fog" args={["#FF4E50", 40, 150]} />
                 <Terrain GROUND_HEIGHT={-2} setCurrentInfo={setCurrentInfo} />
                 {/* <EffectComposer multisampling={8} autoClear={false}>
                     <Outline blur selection={selected} visibleEdgeColor="white" edgeStrength={100} />

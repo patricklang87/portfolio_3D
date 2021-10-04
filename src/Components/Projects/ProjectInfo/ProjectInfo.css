@@ -11,25 +11,32 @@
 }
 
 .ProjectCard h3 {
-    color: #A8E7E9;
     -webkit-text-stroke: 1px rgba(121, 116, 116, 0.767);
     font-size: 1.5rem;
     margin-top: 0;
     margin-bottom: 15px;
 }
 
-.ProjectCard button {
-    margin-bottom: 20px;
-    border: none;
-    background-color: #FF4E50;
-    padding: 10px;
-    color: white;
-    border-radius: 10px;
+.closeButton {
+    position: absolute;
+    top: 20px;
+    right: 20px;
 }
 
-.ProjectCard button:hover {
-    background-color: #ce3f41;
+.closeButton:hover {
+    color:rgb(185, 185, 185)
 }
+
+.linkButtons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.linkButtons button {
+    margin: 0 5px 0 5px;
+}
+
 
 .techList {
     display: flex;
@@ -45,10 +52,6 @@
 }
 
 @media screen and (min-width: 480px) {
-    .ProjectCard button {
-        position: absolute;
-        right: 20px;
-    }
 
     .ProjectCard {
         position: absolute;

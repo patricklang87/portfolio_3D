@@ -1,10 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Oswald:wght@300;400;600&display=swap');
 
 html,
 body,
 #root {
-  width: 100%;
   height: 100%;
   margin: 0;
   padding: 0;
@@ -13,23 +11,32 @@ body,
   scroll-behavior: smooth;
 }
 
-h1, h2 {
-  color: #A8E7E9;
-  font-family: 'Righteous', cursive;
-  -webkit-text-stroke: 1px rgba(121, 116, 116, 0.767);
-  font-size: 3.5rem;
+body {
+  margin: 0 5% 0 5%;
 }
 
-h3, p, a, li, td, button {
-  font-family: 'Poppins', sans-serif;
+h1, h2, h3, h4 {
+  font-family: 'Oswald', sans-serif;
 }
 
-main {
-  top: 57px;
+h5, p, a, li, td, button {
+  font-family: 'Lato', sans-serif;
 }
+
+button {
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 0px;
+  box-shadow: 3px 3px 5px black;
+  transition: box-shadow 150ms ease-in-out;
+}
+
+button:hover {
+  box-shadow: 1px 1px 7px black;
+}
+
+
 
 @media screen and (min-width: 480px) {
-  main {
-    top: 57px;
-  }
+
 }

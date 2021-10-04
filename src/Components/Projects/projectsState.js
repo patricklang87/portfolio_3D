@@ -5,6 +5,7 @@ import flags from '../../assets/models/flags.glb';
 import notepad from '../../assets/models/notepad.glb';
 import tictactoe from '../../assets/models/tictactoe.glb';
 import ufo from '../../assets/models/ufo.glb';
+import laptop from '../../assets/models/laptop.glb';
 import trafficCone from '../../assets/models/trafficcone2.glb';
 
 export const radius = 70;
@@ -68,6 +69,16 @@ export const projects = [
             technologies: ['JavaScript', 'HTML5', 'CSS3'],
             screenshots: ['sg_1.JPG', 'sg_2.JPG'],
             scale: 60
+        },
+        {
+            title: '3D-Portfolio',
+            modelPath: laptop,
+            code_url: 'https://github.com/patricklang87/portfolio_3D',
+            deployment_url: null,
+            description: 'The site you are currently visiting. Taken as an opportunity to experiment with Three.js and React Three Fiber, as well as to play around in Blender.',
+            technologies: ['JavaScript', 'HTML5', 'CSS3', 'React', 'React Three Fiber', 'Three.js'],
+            screenshots: ['sg_1.JPG', 'sg_2.JPG'],
+            scale: 30
         },
     ];
 

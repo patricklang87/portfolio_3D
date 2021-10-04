@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import './ProjectInfo.css';
 import Screenshots from '../Screenshots/Screenshots';
+import { CgCloseO } from 'react-icons/cg';
 
 
 export default function ProjectInfo({project, setCurrentInfo}) {
@@ -28,12 +29,17 @@ export default function ProjectInfo({project, setCurrentInfo}) {
 
         return (
             <div key={project.title} style={(appeared) ? visibleStyle : invisibleStyle} className="ProjectCard">
-                <button onClick={handleClick}><strong>Close</strong></button>
+                <CgCloseO 
+                    size="2em" className="closeButton"
+                    onClick={handleClick}
+                />  
                 <h3>{project.title}</h3>
                 {(project.screenshots.length > 0) && <Screenshots screenshotList={project.screenshots} />}
-                {(project.code_url) && <a href={project.code_url} target='_blank' rel='noreferrer'>GitHub Repository</a> }
-                {(project.code_url && project.deployment_url) && <span> | </span>}
-                {(project.deployment_url) && <a href={project.deployment_url} target='_blank' rel='noreferrer'>Deployed Site</a> }
+                <div className="linkButtons">
+                    {(project.code_url) && <a href={project.code_url} target='_blank' rel='noreferrer'><button >GitHub Repository</button></a> }
+                    {(project.deployment_url) && <a href={project.deployment_url} target='_blank' rel='noreferrer'><button >Deployed Site</button></a> }
+                </div>
+
                 <p>{project.description}</p>
                 <div className="techList">
                     {techList}

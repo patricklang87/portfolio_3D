@@ -86,23 +86,19 @@ export default function Skills() {
         return (
             <div key={item.title} className='skill-card'>
                 {(item.logo) && <img className='skill-logo' src={item.logo} alt={item.title} />}
-                <h3>{item.title}</h3>
             </div>
         )
     });
 
-    const occTechList = techOther.map((item) => {
-        return (
-            <div key={item.title} className='skill-card'>
-                {(item.logo) && <img className='skill-logo' src={item.logo} alt={item.title} />}
-                <h3>{item.title}</h3>
-            </div>
-        );
-    });
+    let occTechList = "";
+    for (let i in techOther) {
+        console.log(i, techOther.length - 1)
+        occTechList += techOther[i].title;
+        if (techOther.length - 1 !== Number(i)) occTechList += ' | '; 
+    }
 
     return (
         <div id="skills">
-            <h2>My Skills</h2>
             <div>
                 <h3>Technologies I use regularly:</h3>
                 <div className='skill-display'>
@@ -111,9 +107,9 @@ export default function Skills() {
             </div>
             <div>
                 <h3>Other technologies I have used:</h3>
-                <div className='skill-display'>
+                <p>
                     {occTechList}
-                </div>
+                </p>
             </div>
         </div>
     )

@@ -2,34 +2,20 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: middle;
+}
+
+.skill-logo {
+    max-height: 50px;
+    max-width: 70px;
+    
 }
 
 .skill-card {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
     align-items: center;
-    width: 90vh;
-    padding: 10px 0 10px 0;
-    margin: 20px 40px 20px 40px;
-    background-color: #dfdcd0;
-    border-radius: 10px;
-}
-
-.skill-card > * {
-    margin-left:10px;
-    margin-right: 10px;
-    padding-left:10px;
-    padding-right: 10px;
-}
-
-.skill-logo {
-    max-height: 100px;
-    max-width: 120px;
+    margin: 2px 6px 2px 6px;
 }
 
 @media screen and (min-width: 480px) {
-    .skill-card {
-        width: 300px;
-    }
-  }
+}
