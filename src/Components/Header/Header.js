@@ -32,7 +32,7 @@ export default function Header() {
             <nav>
                 <ul>
                     <li>
-                        <a href='#projects' onClick={handleClick}>PROJECTS</a>
+                        <a href="#projects" onClick={handleClick}>PROJECTS</a>
                     </li>
                     <li>
                         <a href='#about' onClick={handleClick}>ABOUT</a>

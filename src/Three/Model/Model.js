@@ -13,9 +13,6 @@ export default function Model({modelPath, position=[0, 0, 0], scale=1, isProject
 
 
 
-    // const xPos = radius * Math.cos(projNum * 2 * Math.PI / projects.length);
-    // const zPos = radius * Math.sin(projNum * 2 * Math.PI / projects.length);
-
     const angleAdjustmentDeg = -14;
     let angleAdjustmentRad = angleAdjustmentDeg * (Math.PI / 180);
     if (window.innerWidth < 480) angleAdjustmentRad = 0;
@@ -23,14 +20,15 @@ export default function Model({modelPath, position=[0, 0, 0], scale=1, isProject
 
     const handleClick = () => {
         if (isProjectModel) {
-            setCurrentInfo(project);
+            
             if (window.innerWidth > 480) {
+                setCurrentInfo(project);
                 setTimeout(() => {
                     document.querySelector('#projects').scrollIntoView(false);
                 }, 400);  
             } else {
                 setTimeout(() => {
-                    document.querySelector('.ProjectCard').scrollIntoView(true);
+                    document.getElementById(project.title).scrollIntoView(true);
                 }, 400);
                 
             }

@@ -7,8 +7,7 @@ import Lighting from './Three/Lighting/Lighting';
 import Model from './Three/Model/Model';
 import notepad from './assets/models/notepad.glb';
 import laptop from './assets/models/laptop.glb';
-import LoadingModel from './Three/LoadingModel/LoadingModel'
-import Banner from './Components/Banner/Banner';
+import LoadingModel from './Three/LoadingModel/LoadingModel';
 import Hero from './Components/Hero/Hero';
 import About from './Components/About/About';
 
@@ -23,9 +22,8 @@ function App() {
     <main>
       <Hero />
       <Projects />
-      {/* <Banner /> */}
       <About />
-      <Contact />
+      {/* <Contact /> */}
       <Footer />
     </main>
     </>

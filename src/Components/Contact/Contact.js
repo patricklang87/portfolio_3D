@@ -31,15 +31,27 @@ export default function Contact() {
 
     return (
         <div id="contact">
-            <div>
+            <div className="contactContent">
             <h2>I'd love to hear from you!</h2>
             <div className="emailForm">
-                <input onChange={(e) => {setEmail(e.target.value)}} type="email" placeholder="Your Email" required />
+                <div className="labelInputPair">
+                    <label for="name">Your Name:</label>
+                    <br />
+                    <input name="name"
+                    onChange={(e) => {setName(e.target.value)}} type="text"
+                    id="name" required />
+                </div>
+                <div className="labelInputPair">
+                    <label for="email">Your Email:</label>
+                    <br />
+                    <input onChange={(e) => {setEmail(e.target.value)}} type="email" name="email"
+                    id="email" required />
+                </div>
+                <div className="labelInputPair">
+                <label for="message">Your Message:</label>
                 <br />
-                <input onChange={(e) => {setName(e.target.value)}} type="text" placeholder="Your Name" required />
-                <br />
-                <textarea onChange={(e) => {setMessage(e.target.value)}} rows="10" placeholder="Your Message" required />
-                <br />
+                <textarea onChange={(e) => {setMessage(e.target.value)}} name="message" rows="10" id="message" required />
+                </div>
                 <button onClick={handleClick}>
                     Send
                 </button>

@@ -7,8 +7,6 @@ header {
 .hamburgerIcon {
     height: 50px;
     width: auto;
-    background-color: white;
-    border: black 1px solid;
     position: fixed;
     top: 20px;
     right: 20px;
@@ -20,14 +18,14 @@ header img {
     width: auto;
 }
 
-header a {
+/* header a {
     text-decoration: none;
     color: black;
 }
 
 header a:hover{
     color: rgb(185, 185, 185)
-}
+} */
 
 nav ul {
     display: flex;

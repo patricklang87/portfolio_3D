@@ -15,8 +15,10 @@ export default function About() {
                 <div class="aboutPortrait">
                     <img src={portrait} alt="Patrick Lang" />
                 </div>    
+                 
             </div>
             <Skills />
+           
         </div>
     )
 }

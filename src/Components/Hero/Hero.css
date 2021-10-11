@@ -10,5 +10,13 @@
 }
 
 .heroMessage {
-    grid-column: 2 / span 3
+    grid-column: 2 / span 10
 }
+
+
+
+@media only screen and (min-width: 480px) {
+    .heroMessage {
+        grid-column: 2 / span 3
+    }
+  }

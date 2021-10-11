@@ -10,6 +10,7 @@ import Model from '../../Three/Model/Model';
 import CameraControls from '../../Three/CameraControls';
 import Terrain from '../../Three/Terrain';
 import { radius, projects } from './projectsState';
+    import MobileProjectsList from './MobileProjectList/MobileProjectList';
 
 export default function Projects() {
     const [cameraPosition, setCameraPosition] = useState([0, 10, 110]);
@@ -17,6 +18,7 @@ export default function Projects() {
     const selected = hovered ? [hovered] : undefined;
     const [currentInfo, setCurrentInfo] = useState(null);
     const [changingFocus, setChangingFocus] = useState(false);
+
 
 
     const projectCarousel = projects.map((project, index) => {
@@ -64,6 +66,8 @@ export default function Projects() {
                 </EffectComposer> */}
             </Canvas>
             {(currentInfo) && <ProjectInfo setCurrentInfo={setCurrentInfo} project={currentInfo} />}
+            {(window.innerWidth < 480) && <MobileProjectsList />}
+
         </div>
     )
 }

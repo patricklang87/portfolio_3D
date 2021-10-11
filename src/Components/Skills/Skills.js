@@ -57,7 +57,7 @@ const techOther = [
         logo: socketIOLogo
     },
     {
-        title: 'three.js',
+        title: 'Three.js',
         logo: threejsLogo
     },
     {
@@ -73,10 +73,10 @@ const techOther = [
         title: 'GitHub',
     },
     {
-        title: 'passport.js',
+        title: 'Passport.js',
     },
     {
-        title: 'bcrypt',
+        title: 'Bcrypt.js',
     }
 ]
 
@@ -100,16 +100,18 @@ export default function Skills() {
     return (
         <div id="skills">
             <div>
-                <h3>Technologies I use regularly:</h3>
-                <div className='skill-display'>
-                    {regTechList}
+                <div>
+                    <h3>Technologies I use regularly:</h3>
+                    <div className='skill-display'>
+                        {regTechList}
+                    </div>
                 </div>
-            </div>
-            <div>
-                <h3>Other technologies I have used:</h3>
-                <p>
-                    {occTechList}
-                </p>
+                <div>
+                    <h3>Other technologies I have used:</h3>
+                    <p>
+                        {occTechList}
+                    </p>
+                </div>
             </div>
         </div>
     )
