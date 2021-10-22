@@ -4,6 +4,7 @@
 
 ## Links
 
+- [Deployment](https://langportfolio.herokuapp.com/)
 - [Repo](https://github.com/patricklang87/portfolio_3D/)
 
 ## Screenshots
@@ -19,6 +20,7 @@ Screenshots are forthcoming.
 - CSS
 - React
 - React Three Fiber
+- Nodemailer
 
 ## Possible Future Updates
 
