@@ -1,6 +1,6 @@
 <h1 align="center">Portfolio 3D</h1>
 
-<p align="center">S frontend site for hosting my other Webdev projects. Taken as an opportunity to experiment with the React Three Fiber library.</p>
+<p align="center">A frontend site for hosting my other Webdev projects. Taken as an opportunity to experiment with the React Three Fiber library.</p>
 
 ## Links
 
